@@ -1,0 +1,116 @@
+@use "index" as *;
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: $black;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  > main {
+    width: 1440px;
+    height: 1024px;
+    background-image: url(../image/singin.jpg);
+
+    > .conteiner {
+      background-color: $white;
+      width: 843px;
+      height: 1024px;
+
+      > section {
+        padding: 88px 88px;
+        > h1 {
+          font-size: 32px;
+          color: $black;
+        }
+        > h2 {
+          font-size: 16px;
+          color: $black;
+          margin: 4px 2px;
+
+          > a {
+            color: $grey;
+          }
+        }
+
+        > form {
+          > h1 {
+            font-size: 16px;
+            color: $grey;
+            margin: 32px 0px 7px;
+          }
+          > input {
+            width: 665px;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 20px;
+          }
+
+          > .conteiner2 {
+            > h1 {
+              font-size: 16px;
+              color: $grey;
+              margin: 32px 0px 7px;
+              display: flex;
+              justify-content: space-between;
+
+              > span {
+                > img {
+                  width: 18px;
+                  height: 16px;
+                  margin-right: 10px;
+                }
+                > h2 {
+                  display: inline-block;
+                  font-size: 18px;
+                }
+              }
+            }
+
+            > input {
+              width: 665px;
+              height: 50px;
+              border-radius: 10px;
+              font-size: 20px;
+            }
+
+            > .text {
+              > ul {
+                > li {
+                  display: inline-block;
+                  margin-right: 48px;
+                  margin-bottom: 20px;
+                  font-size: 15px;
+                  color: $grey;
+                }
+              }
+            }
+            > section {
+              > p {
+                font-size: 16px;
+              }
+              > h1 {
+                margin-top: 40px;
+                font-size: 16px;
+                color: $black;
+
+                > a {
+                  color: $black;
+                }
+              }
+              > button {
+                color: $white;
+                font-size: 22px;
+                background-color: $grey;
+                width: 256px;
+                height: 64px;
+                margin-top: 32px;
+                border-radius: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -141,11 +134,7 @@ table {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   background-color: #000;
   margin-top: 100px;
@@ -191,11 +180,7 @@ body > main > .conteiner > section > form > .conteiner2 > h1 {
   font-size: 16px;
   color: #333;
   margin: 32px 0px 7px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 body > main > .conteiner > section > form > .conteiner2 > h1 > span > img {
@@ -240,3 +225,5 @@ body > main > .conteiner > section > form > .conteiner2 > section > button {
   margin-top: 32px;
   border-radius: 32px;
 }
+
+/*# sourceMappingURL=styles.css.map */
